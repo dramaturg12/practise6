@@ -1,0 +1,7 @@
+def nested_sum(t):
+    count=0
+    for i in range(len(t)):
+      count+=sum(t[i])
+    return count 
+t=[] #вводимый список 
+print(nested_sum(t))
