@@ -1,0 +1,6 @@
+t=[] #вводимый список 
+def chop(t):
+    t.pop(-1) 
+    t.pop(0)
+chop(t)
+t
