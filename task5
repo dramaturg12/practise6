@@ -1,0 +1,7 @@
+t=[] #вводимый список 
+def ls_sorted(t):
+  if t==sorted(t):
+    return True
+  else:
+    return False
+ls_sorted(t)
