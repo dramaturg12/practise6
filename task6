@@ -1,0 +1,14 @@
+unsort_word1='' #вводимые слова
+unsort_word2=''
+word1=sorted(unsort_word1)
+word2=sorted(unsort_word2)
+def is_anagramm(unsort_word1,unsort_word2):
+  for i in range(word1.count(' ')):
+    word1.pop(0)
+  for i in range(word2.count(' ')):
+    word2.pop(0)
+  if word1==word2:
+    return True
+  else:
+    return False
+is_anagramm(unsort_word1,unsort_word2)
